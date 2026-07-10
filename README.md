@@ -47,3 +47,9 @@ Developed by Dimitrios Sioutis and Christos Christoforidis.
 ## Note
 
 This repository contains the Android client application. Original server endpoints and sensitive configuration values have been removed or replaced for security reasons.
+
+## License
+
+All rights reserved. This project was developed as an academic diploma thesis by Dimitrios Sioutis and Christos Christoforidis.
+
+The source code is published for portfolio, educational and research demonstration purposes only. Commercial use, redistribution, sublicensing, or derivative works are not permitted without explicit written permission from the authors.
