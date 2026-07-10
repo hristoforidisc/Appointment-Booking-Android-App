@@ -1,0 +1,4 @@
+include ':zcustomcalendar'
+include ':app'
+project(':zcustomcalendar').projectDir = new File(rootDir, 'app/libs/zcustomcalendar/')
+rootProject.name = "e-rendezvous"
