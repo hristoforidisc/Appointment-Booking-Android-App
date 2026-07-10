@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CustomCalendarLibrary</string>
+
+    <string-array name="days_of_week">
+        <item>Κυριακή</item>
+        <item>Δευτέρα</item>
+        <item>Τρίτη</item>
+        <item>Τετάρτη</item>
+        <item>Πέμπτη</item>
+        <item>Παρασκευή</item>
+        <item>Σάββατο</item>
+    </string-array>
+
+</resources>
