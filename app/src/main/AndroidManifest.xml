@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e_rendezvous">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".simpleUserActivities.ProfUserScheduleFreeHoursInfo"></activity>
+        <activity android:name=".simpleUserActivities.ProfUserScheduleFreeHours" />
+        <activity android:name=".profUserActivities.EditDailySchedule" />
+        <activity
+            android:name=".profUserActivities.EditProfUserServices"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".profUserActivities.EditProfUserSchedule" />
+        <activity
+            android:name=".profUserActivities.EditProfUserGroupsServices"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".profUserActivities.EditProfUserBusiness" />
+        <activity android:name=".profUserActivities.EditProfUserProfile" />
+        <activity android:name=".simpleUserActivities.SimpleUserFinalizeRendezvous" />
+        <activity android:name=".simpleUserActivities.SimpleUserSelectDate" />
+        <activity android:name=".simpleUserActivities.SimpleUserShoppingCart" />
+        <activity android:name=".simpleUserActivities.ProfUserProfile" />
+        <activity
+            android:name=".simpleUserActivities.SearchResultsMainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".simpleUserActivities.SearchBusinessSpecialist" />
+        <activity android:name=".simpleUserActivities.SimpleUserRendezvousInfo" />
+        <activity android:name=".profUserActivities.ProfUserShoppingCart" />
+        <activity android:name=".profUserActivities.ProfUserAddServices" />
+        <activity android:name=".profUserActivities.AddRendezvous" />
+        <activity android:name=".profUserActivities.RendezvousInfo" />
+        <activity android:name=".profUserActivities.ProfUserDailyRendezvous" />
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".profUserActivities.ProfUserMainActivity" />
+        <activity android:name=".registration.WeeklyScheduleRegistration" />
+        <activity android:name=".registration.DailyScheduleRegistration" />
+        <activity
+            android:name=".registration.ServiceRegistration"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".registration.GroupRegistration"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".registration.BusinessRegistration" />
+        <activity android:name=".registration.ProfUserSignup" />
+        <activity android:name=".PreSignup" />
+        <activity android:name=".SimpleUserSignup" />
+        <activity android:name=".Login" />
+        <activity android:name=".simpleUserActivities.SimpleUserMainActivity" />
+
+        <service android:name=".profUserActivities.RendezvousBackgroudUpdate" />
+        <service android:name=".simpleUserActivities.SimpleUserRendezvousBackgroundUpdate" />
+    </application>
+
+</manifest>
