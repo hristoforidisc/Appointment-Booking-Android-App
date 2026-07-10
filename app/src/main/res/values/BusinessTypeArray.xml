@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="BusinessType">
+        <item>Είδος Επιχείρησης</item>
+        <item>Αθλητισμός</item>
+        <item>Κατασκευαστικός Κλάδος</item>
+        <item>Λογιστικά Επαγγέλματα</item>
+        <item>Μarketing</item>
+        <item>Μηχανολογικά Επαγγέλματα</item>
+        <item>Νομικός Κλάδος</item>
+        <item>Επαγγέλματα Αισθητικής</item>
+        <item>Τεχνολογία Πληροφορικής</item>
+        <item>Τομέας Υγείας</item>
+        <item>Επαγγέλματα Ψυχολογίας</item>
+    </string-array>
+</resources>

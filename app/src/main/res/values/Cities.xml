@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Cities">
+        <item>Επέλεξε Πόλη</item>
+        <item>Αθήνα</item>
+        <item>Θεσσαλονίκη</item>
+        <item>Πάτρα</item>
+        <item>Ηράκλειο</item>
+        <item>Λάρισα</item>
+        <item>Βόλος</item>
+        <item>Ιωάννινα</item>
+        <item>Τρίκαλα</item>
+        <item>Χαλκίδα</item>
+        <item>Σέρρες</item>
+        <item>Αλεξανδρούπολη</item>
+        <item>Ξάνθη</item>
+        <item>Κατερίνη</item>
+        <item>Αγρίνιο</item>
+        <item>Καλαμάτα</item>
+        <item>Καβάλα</item>
+        <item>Χανιά</item>
+        <item>Λαμία</item>
+        <item>Κομοτηνή</item>
+        <item>Ρόδος</item>
+        <item>Δράμα</item>
+        <item>Βέροια</item>
+        <item>Κοζάνη</item>
+        <item>Καρδίτσα</item>
+        <item>Ρέθυμνο</item>
+        <item>Πτολεμαΐδα</item>
+        <item>Τρίπολη</item>
+        <item>Κόρινθος</item>
+        <item>Γέρακας</item>
+        <item>Γιαννιτσά</item>
+        <item>Μυτιλήνη</item>
+        <item>Χίος</item>
+        <item>Σαλαμίνα</item>
+        <item>Ελευσίνα</item>
+        <item>Κέρκυρα</item>
+        <item>Πύργος</item>
+        <item>Μέγαρα</item>
+        <item>Κιλκίς</item>
+        <item>Θήβα</item>
+        <item>Άργος</item>
+        <item>Άρτα</item>
+        <item>Άρτεμη (Λούτσα)</item>
+        <item>Λιβαδειά</item>
+        <item>Ωραιόκαστρο</item>
+        <item>Αίγιο</item>
+        <item>Κως</item>
+        <item>Κορωπί</item>
+        <item>Πρέβεζα</item>
+        <item>Σπάρτη</item>
+        <item>Νάουσα</item>
+        <item>Ορεστιάδα</item>
+        <item>Περαία</item>
+        <item>Έδεσσα</item>
+        <item>Φλώρινα</item>
+        <item>Αμαλιάδα</item>
+        <item>Παλλήνη</item>
+        <item>Θέρμη</item>
+        <item>Βάρη</item>
+        <item>Νέα Μάκρη</item>
+        <item>Αλεξάνδρεια</item>
+        <item>Παιανία</item>
+        <item>Καλύβια Θορικού</item>
+        <item>Ναύπλιο</item>
+        <item>Ναύπακτος</item>
+        <item>Καστοριά</item>
+        <item>Γρεβενά</item>
+        <item>Μεσολόγγι</item>
+        <item>Γάζι</item>
+        <item>Ιεράπετρα</item>
+        <item>Κάλυμνος (Πόθια)</item>
+        <item>Ραφήνα</item>
+        <item>Λουτράκι</item>
+        <item>Άγιος Νικόλαος</item>
+        <item>Ερμούπολη</item>
+        <item>Ιαλυσός</item>
+        <item>Μάνδρα</item>
+        <item>Τύρναβος</item>
+        <item>Γλυκά Νερά</item>
+        <item>Άγιος Στέφανος</item>
+        <item>Διαβατά</item>
+        <item>Κιάτο</item>
+        <item>Ανατολή</item>
+        <item>Ζάκυνθος</item>
+        <item>Αργοστόλι</item>
+        <item>Πόρτο Ράφτη</item>
+        <item>Μαρκόπουλο</item>
+        <item>Νέα Αρτάκη</item>
+        <item>Ζεφύρι</item>
+        <item>Σητεία</item>
+        <item>Νέα Μουδανιά</item>
+        <item>Φάρσαλα</item>
+        <item>Σίνδος</item>
+        <item>Διδυμότειχο</item>
+        <item>Σπάτα</item>
+        <item>Ηγουμενίτσα</item>
+        <item>Επανομή</item>
+        <item>Χρυσούπολη</item>
+        <item>Νέα Μηχανιώνα</item>
+        <item>Λευκάδα</item>
+        <item>Νέα Πέραμος</item>
+        <item>Καλαμπάκα</item>
+        <item>Σάμος</item>
+        <item>Αλμυρός</item>
+        <item>Κουφάλια</item>
+        <item>Γιάννουλη</item>
+        <item>Λαγκαδάς</item>
+        <item>Μουρνιές</item>
+        <item>Κερατέα</item>
+        <item>Γαστούνη</item>
+        <item>Άργος Ορεστικό</item>
+        <item>Ελασσόνα</item>
+        <item>Χαλάστρα</item>
+        <item>Νέα Καλλικράτεια</item>
+        <item>Τρίλοφος</item>
+        <item>Δροσιά</item>
+        <item>Καρπενήσι</item>
+        <item>Μαραθώνας</item>
+        <item>Λαύριο</item>
+        <item>Νάξος</item>
+        <item>Πολύκαστρο</item>
+        <item>Λιτόχωρο</item>
+        <item>Άμφισσα</item>
+        <item>Αίγινα</item>
+        <item>Νέο Καρλόβασι</item>
+        <item>Κάτω Αχαΐα</item>
+        <item>Βασιλικό</item>
+        <item>Αριδαία</item>
+        <item>Άνοιξη</item>
+        <item>Ασβεστοχώρι</item>
+        <item>Μοίρες</item>
+        <item>Σούδα</item>
+        <item>Παραλία Αχαΐας</item>
+        <item>Κουνουπιδιανά</item>
+        <item>Οβρυά</item>
+        <item>Ανάβυσσος</item>
+        <item>Θρακομακεδόνες</item>
+        <item>Πολύγυρος</item>
+        <item>Αμπελώνας</item>
+        <item>Αφάντου</item>
+        <item>Μεσσήνη</item>
+        <item>Νέοι Επιβάτες</item>
+        <item>Φιλιατρά</item>
+        <item>Λεοντάρι</item>
+        <item>Ψαχνά</item>
+        <item>Μεγαλόπολη</item>
+        <item>Παλαμάς</item>
+        <item>Αυλώνας</item>
+        <item>Μύρινα</item>
+        <item>Διόνυσος</item>
+        <item>Σοφάδες</item>
+        <item>Νεροκούρος</item>
+        <item>Ξυλόκαστρο</item>
+        <item>Φίλυρο</item>
+        <item>Σιάτιστα</item>
+        <item>Φέρες</item>
+        <item>Σκύδρα</item>
+        <item>Πλαγιάρι</item>
+        <item>Αρχάγγελος</item>
+        <item>Κρεμαστή</item>
+        <item>Βροντάδος</item>
+        <item>Τυμπάκι</item>
+        <item>Ρίο</item>
+        <item>Ορχομενός</item>
+        <item>Κρύα Βρύση</item>
+        <item>Αγριά</item>
+        <item>Μακροχώρι</item>
+        <item>Σιδηρόκαστρο</item>
+        <item>Νέα Αγχίαλος</item>
+        <item>Κυπαρισσία</item>
+        <item>Κάρυστος</item>
+        <item>Κρυονέρι</item>
+        <item>Δροσιά</item>
+        <item>Γαργαλιάνοι</item>
+        <item>Αταλάντη</item>
+        <item>Άγιος Αθανάσιος Θεσ/νίκης</item>
+        <item>Νιγρίτα</item>
+        <item>Στυλίδα</item>
+        <item>Σκιάθος</item>
+        <item>Χορτιάτης</item>
+        <item>Αιάντειο Σαλαμίνας</item>
+        <item>Πεντέλη Αττικής</item>
+        <item>Αλιβέρι</item>
+        <item>Τήνος</item>
+        <item>Μαγούλα</item>
+        <item>Δαράτσος Χανίων</item>
+        <item>Αμπελάκια Σαλαμίνας</item>
+        <item>Βόνιτσα</item>
+        <item>Καλοχώρι Θεσσαλονίκης</item>
+        <item>Άγιοι Θεόδωροι Κορινθίας</item>
+        <item>Φιλιππιάδα</item>
+        <item>Αγία Μαρίνα Κορωπίου</item>
+        <item>Αλίαρτος</item>
+        <item>Ζευγολατειό Κορινθίας</item>
+        <item>Ιτέα Φωκίδας</item>
+        <item>Ελευθερούπολη</item>
+        <item>Ιστιαία</item>
+        <item>Παροικιά</item>
+        <item>Αρκαλοχώρι</item>
+        <item>Γύθειο</item>
+        <item>Νέα Μαγνησία</item>
+        <item>Κίσσαμος</item>
+        <item>Βουλιαγμένη</item>
+        <item>Ερέτρια</item>
+        <item>Αιγίνιο</item>
+        <item>Κίτσι</item>
+        <item>Κανάλια Κέρκυρας</item>
+        <item>Σχηματάρι</item>
+        <item>Αιτωλικό</item>
+        <item>Κρανίδι</item>
+        <item>Σπέτσες</item>
+        <item>Φαλάννη Λάρισας</item>
+        <item>Περιβόλια Κυδωνίας Χανίων</item>
+        <item>Ανδραβίδα</item>
+        <item>Αρχάνες</item>
+        <item>Κατσικάς</item>
+        <item>Νίκαια Λάρισας</item>
+        <item>Νέα Ραιδεστός</item>
+        <item>Νεμέα</item>
+        <item>Ποταμός Κέρκυρας</item>
+        <item>Σουφλί</item>
+        <item>Μαλεσίνα Φθιώτιδας</item>
+        <item>Αμφιλοχία</item>
+        <item>Ηράκλεια Σερρών</item>
+        <item>Μύκονος (πόλη)</item>
+        <item>Βασιλικά Θεσσαλονίκης</item>
+        <item>Λεωνίδιο</item>
+        <item>Ληξούρι</item>
+        <item>Λεπτοκαρυά Πιερίας</item>
+        <item>Σταυρός Θεσσαλονίκης</item>
+        <item>Αμύνταιο</item>
+        <item>Δρυμός Θεσσαλονίκης</item>
+        <item>Κύμινα</item>
+        <item>Πόρος (χώρα)</item>
+        <item>Αμάρυνθος</item>
+        <item>Κιμμέρια</item>
+        <item>Παστίδα Ρόδου</item>
+        <item>Γουμένισσα</item>
+        <item>Βαρθολομιό</item>
+        <item>Λαγυνά</item>
+        <item>Προσοτσάνη</item>
+        <item>Νέα Πέραμος Καβάλας</item>
+        <item>Ροδίτσα Φθιώτιδας</item>
+        <item>Δεσκάτη</item>
+        <item>Κορινός</item>
+        <item>Ελεούσα Ιωαννίνων</item>
+        <item>Χώρα Μεσσηνίας</item>
+        <item>Άγιος Νικόλαος Ληλαντίων</item>
+        <item>Καρδία Θεσσαλονίκης</item>
+        <item>Άρια Αργολίδας</item>
+        <item>Κρηνίδες</item>
+        <item>Βελβεντός</item>
+        <item>Καπανδρίτι</item>
+        <item>Σάπες</item>
+        <item>Βραχάτι</item>
+        <item>Λητή</item>
+        <item>Μελισσοχώρι Θεσσαλονίκης</item>
+        <item>Ιερισσός</item>
+        <item>Βάγια Βοιωτίας</item>
+        <item>Λιμένας Θάσου</item>
+        <item>Ζηπάρι Κω</item>
+        <item>Μάλια</item>
+        <item>Κοσκινού Ρόδου</item>
+        <item>Καρδαμίτσια Ιωαννίνων</item>
+        <item>Αγιά Λάρισας</item>
+        <item>Γαλατάς Χανίων</item>
+        <item>Νέος Μαρμαράς</item>
+        <item>Άγιος Αθανάσιος Δράμας</item>
+        <item>Αλεπού Κέρκυρας</item>
+        <item>Ζαχάρω</item>
+        <item>Καλλιθέα Πιερίας</item>
+        <item>Μελίκη</item>
+        <item>Παραλία Βαθέος Αυλίδος</item>
+        <item>Καλαμπάκι</item>
+        <item>Βέλο Κορινθίας</item>
+        <item>Σοχός</item>
+        <item>Χαλκηδόνα Θεσσαλονίκης</item>
+        <item>Σκόπελος</item>
+        <item>Νεάπολη Λακωνίας</item>
+        <item>Χλόη Καστοριάς</item>
+        <item>Νέα Τρίγλια Χαλκιδικής</item>
+        <item>Σκάλα Λακωνίας</item>
+        <item>Γέφυρα Θεσσαλονίκης</item>
+        <item>Μανιάκοι</item>
+        <item>Ντράφι</item>
+        <item>Νέα Μεσημβρία</item>
+        <item>Βελεστίνο</item>
+        <item>Αγία Τριάδα Θεσσαλονίκης</item>
+        <item>Αμφίκλεια</item>
+        <item>Πλωμάρι</item>
+        <item>Σέρβια</item>
+        <item>Ορμύλια</item>
+        <item>Κρόκος Κοζάνης</item>
+        <item>Εξοχή Ιωαννίνων</item>
+        <item>Λιμένας Χερσονήσου</item>
+        <item>Νέο Ρύσιο</item>
+        <item>Κόνιτσα</item>
+        <item>Φυλή</item>
+        <item>Λευκίμμη</item>
+        <item>Παναιτώλιο</item>
+        <item>Σαρωνίδα Αττικής</item>
+        <item>Οινόφυτα Βοιωτίας</item>
+        <item>Σταμάτα</item>
+        <item>Αξιούπολη</item>
+        <item>Δοξάτο</item>
+        <item>Πεδινή Ιωαννίνων</item>
+        <item>Ερυθρές Αττικής</item>
+        <item>Ασπροβάλτα</item>
+        <item>Καλυθιές Ρόδου</item>
+        <item>Κατοχή Αιτωλοακαρνανίας</item>
+        <item>Νεοχώρι Αιτωλοακαρνανίας</item>
+        <item>Κολινδρός</item>
+        <item>Νέα Βύσσα</item>
+        <item>Καινούργιο Αιτ/νίας</item>
+        <item>Βιολί Χαράκι Ρεθύμνης</item>
+        <item>Δεμένικα</item>
+        <item>Νέα Κίος Αργολίδας</item>
+        <item>Κασσάνδρεια</item>
+        <item>Καμένα Βούρλα</item>
+        <item>Χωριστή</item>
+        <item>Αμυγδαλεώνας</item>
+        <item>Νέα Παλάτια</item>
+        <item>Παλαιά Φώκαια</item>
+        <item>Νικήτη</item>
+        <item>Πηγάδια Καρπάθου</item>
+        <item>Πλάκα Δήλεσι Βοιωτίας</item>
+        <item>Αστακός Αιτωλοακαρνανίας</item>
+        <item>Κρανέα Ελασσόνος</item>
+        <item>Σπερχειάδα</item>
+        <item>Νεάπολη Λασιθίου</item>
+        <item>Πάλαιρος</item>
+        <item>Άγιος Βασίλειος Αχαΐας</item>
+        <item>Αράχωβα</item>
+        <item>Λέχαιο</item>
+        <item>Λεχαινά</item>
+        <item>Παραδείσι</item>
+        <item>Μεγάλη Παναγία</item>
+        <item>Ανατολικό Θεσσαλονίκης</item>
+        <item>Ίασμος Ροδόπης</item>
+        <item>Κένταυρος Ξάνθης</item>
+        <item>Βραχναίικα</item>
+        <item>Ροδοδάφνη Αχαΐας</item>
+        <item>Λουτρά Αιδηψού Εύβοιας</item>
+        <item>Λιβανάτες</item>
+        <item>Νέα Βρασνά</item>
+        <item>Ξηροπόταμος Δράμας</item>
+        <item>Μαρκόπουλο Ωρωπού</item>
+        <item>Περίσταση Πιερίας</item>
+        <item>Γαλάτιστα</item>
+        <item>Νέα Σελεύκεια</item>
+        <item>Μολάοι</item>
+        <item>Νέα Ζίχνη</item>
+        <item>Καναλλάκι Πρέβεζας</item>
+        <item>Φιλιάτες</item>
+        <item>Τραγανό Πηνειού Ηλείας</item>
+        <item>Σελήνια Σαλαμίνας</item>
+        <item>Ερμιόνη Αργολίδας</item>
+        <item>Μέτσοβο</item>
+        <item>Σταυρός Φθιώτιδας</item>
+        <item>Εχίνος</item>
+        <item>Λυγουριό Αργολίδας</item>
+        <item>Λιμενάρια Θάσου</item>
+        <item>Άγιος Κωνσταντίνος Φθιώτιδας</item>
+        <item>Πυλί Κω</item>
+        <item>Νάουσα Πάρου</item>
+        <item>Σήμαντρα Χαλκιδικής</item>
+        <item>Νέα Μάλγαρα</item>
+        <item>Νέο Σούλι Σερρών</item>
+        <item>Πέλλα</item>
+        <item>Λευκώνας Σερρών</item>
+        <item>Βαθύ Εύβοιας</item>
+        <item>Κύμη</item>
+        <item>Ελάτεια</item>
+        <item>Αγία Μαρίνα Λέρου</item>
+        <item>Παραμυθιά Θεσπρωτίας</item>
+        <item>Οιχαλία Τρικάλων</item>
+        <item>Σύμη</item>
+        <item>Πύλος</item>
+        <item>Βαθύλακκος Θεσσαλονίκης</item>
+        <item>Αγιάσος</item>
+        <item>Ανώγεια</item>
+        <item>Συκούριο Λάρισας</item>
+        <item>Τυχερό Έβρου</item>
+        <item>Αρναία</item>
+        <item>Βαμβακόπουλο Χανίων</item>
+        <item>Βάρδα</item>
+        <item>Νεάπολη Κοζάνης</item>
+        <item>Άστρος</item>
+        <item>Ευξεινούπολη</item>
+        <item>Διμήνι Μαγνησίας</item>
+        <item>Μακρακώμη</item>
+        <item>Αγία Παρασκευή Θεσ/νίκης</item>
+        <item>Λιβάδι Λάρισας</item>
+        <item>Νικήσιανη</item>
+        <item>Άγιος Κήρυκος Ικαρίας</item>
+        <item>Νέα Λάμψακος Εύβοιας</item>
+        <item>Παληό Καβάλας</item>
+        <item>Γαλατάς Τροιζηνίας</item>
+        <item>Αγία Παρασκευή Λέσβου</item>
+        <item>Κυριάκι Βοιωτίας</item>
+        <item>Διακοπτό</item>
+        <item>Ζαγκλιβέρι</item>
+        <item>Τερπνή</item>
+        <item>Νέα Καρβάλη</item>
+        <item>Κάτω Νευροκόπι</item>
+        <item>Κέφαλος Κω</item>
+        <item>Σκούταρι Σερρών</item>
+        <item>Κάτω Γούβες Ηρακλείου</item>
+        <item>Κάτω Σούλι Αττικής</item>
+        <item>Ανθούσα Αττικής</item>
+        <item>Αλιστράτη</item>
+        <item>Κυψέλη Αίγινας</item>
+        <item>Μιντιλόγλι Αχαΐας</item>
+        <item>Διώνη Αττικής</item>
+        <item>Κρουσώνας Ηρακλείου</item>
+        <item>Ζαρός</item>
+        <item>Πολίχνιτος Λέσβου</item>
+        <item>Μεσοποταμία Καστοριάς</item>
+        <item>Χαλκούτσι</item>
+        <item>Λεπενού</item>
+        <item>Ταγαράδες</item>
+        <item>Πάργα</item>
+        <item>Πλατύ Ημαθίας</item>
+        <item>Βλαχιώτης Λακωνίας</item>
+        <item>Άδενδρο</item>
+        <item>Κωστακιοί</item>
+        <item>Ροδόπολη Αττικής</item>
+        <item>Ζαγορά Μαγνησίας</item>
+        <item>Ροδολίβος</item>
+        <item>Πάνορμος Καλύμνου</item>
+        <item>Αντιμάχεια</item>
+        <item>Καρδιτσομαγούλα</item>
+        <item>Σέλερο</item>
+        <item>Λακκί Λέρου</item>
+        <item>Φαρκαδόνα</item>
+        <item>Τσαριτσάνη</item>
+        <item>Καρίτσα Πιερίας</item>
+        <item>Πεντάλοφος Θεσσαλονίκης</item>
+        <item>Αγία Βαρβάρα Ηρακλείου</item>
+        <item>Πλαταμώνας Πιερίας</item>
+        <item>Γαλαξείδι Φωκίδας</item>
+        <item>Πικέρμι</item>
+        <item>Γυμνό Ευβοίας</item>
+        <item>Αιανή Κοζάνης</item>
+        <item>Νέα Μανολάδα Ηλείας</item>
+        <item>Αγία Μαρίνα Χανίων</item>
+    </string-array>
+</resources>
