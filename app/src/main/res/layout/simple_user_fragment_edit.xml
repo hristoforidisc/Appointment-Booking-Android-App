@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_username"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="@string/username"
+        android:textColor="@android:color/darker_gray"
+        android:inputType="textPersonName"
+        android:maxLength="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/CitySpinner" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:maxLength="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        app:layout_constraintBottom_toTopOf="@+id/EmailTextField"/>
+
+    <Button
+        android:id="@+id/SimpleUserSignupButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:text="Ενημέρωση Στοιχείων"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmailTextField" />
+
+    <EditText
+        android:id="@+id/PhoneTextField"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/PhoneTextField"
+        android:inputType="phone"
+        android:maxLength="100"
+        app:layout_constraintBottom_toTopOf="@+id/CitySpinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameTextField" />
+
+    <EditText
+        android:id="@+id/EmailTextField"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/EmailTextField"
+        android:inputType="textEmailAddress"
+        android:maxLength="100"
+        app:layout_constraintBottom_toTopOf="@+id/SimpleUserSignupButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <EditText
+        android:id="@+id/NameTextField"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_full_name"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/NameTextField"
+        android:inputType="textCapWords"
+        android:maxLength="100"
+        app:layout_constraintBottom_toTopOf="@+id/PhoneTextField"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+        android:id="@+id/CitySpinner"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:dropDownWidth="wrap_content"
+        android:entries="@array/Cities"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/username"
+        app:layout_constraintTop_toBottomOf="@+id/PhoneTextField" />
+
+    <ImageView
+        android:id="@+id/cityPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_city"
+        app:layout_constraintBottom_toBottomOf="@+id/CitySpinner"
+        app:layout_constraintEnd_toStartOf="@+id/CitySpinner"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/CitySpinner" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Επεξεργασία στοιχείων"
+        android:textAlignment="center"
+        android:textColor="@color/blue_color"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/NameTextField"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

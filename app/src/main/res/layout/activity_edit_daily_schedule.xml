@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_background">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toStartOf="@+id/guideline42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="65dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="84dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/narrow_bold_italic"
+        android:text="Συμπλήρωσε το ωράριο της επιλεγμένης ημέρας"
+        android:textAlignment="center"
+        android:textColor="@color/blue_color"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/radioButtons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline41" />
+
+
+    <Button
+        android:id="@+id/morningStartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Έναρξη"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/login_button"
+        app:layout_constraintBottom_toTopOf="@+id/afternoonTextView"
+        app:layout_constraintEnd_toStartOf="@+id/morningEndTime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/morningTextView" />
+
+    <Button
+        android:id="@+id/morningEndTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Λήξη"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/login_button"
+        app:layout_constraintBottom_toBottomOf="@+id/morningStartTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/morningStartTime"
+        app:layout_constraintTop_toTopOf="@+id/morningStartTime" />
+
+    <Button
+        android:id="@+id/afternoonStartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Έναρξη"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:background="@drawable/login_button"
+        app:layout_constraintBottom_toTopOf="@id/finishDailySchedule"
+        app:layout_constraintEnd_toStartOf="@+id/afternoonEndTime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/afternoonTextView" />
+
+    <Button
+        android:id="@+id/afternoonEndTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Λήξη"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:background="@drawable/login_button"
+        app:layout_constraintBottom_toBottomOf="@+id/afternoonStartTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/afternoonStartTime"
+        app:layout_constraintTop_toTopOf="@+id/afternoonStartTime" />
+
+    <Button
+        android:id="@+id/finishDailySchedule"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/finishButton"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/group_finish_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/afternoonStartTime" />
+
+    <TextView
+        android:id="@+id/morningTextView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/morningStartTime"
+        android:text="Επιλογή ενιαίου ωραρίου"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/blue_color"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notWorking" />
+
+    <TextView
+        android:id="@+id/afternoonTextView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textColor="@color/blue_color"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/afternoonStartTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/morningStartTime" />
+
+    <TextView
+        android:id="@+id/currentDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="@color/blue_color"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/notWorking"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/red_color"
+        android:text="Μη εργασιμη"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/morningTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtons" />
+
+    <RadioGroup
+        android:id="@+id/radioButtons"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:background="@drawable/group_card_view"
+        app:layout_constraintBottom_toTopOf="@+id/notWorking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView6">
+
+        <RadioButton
+            android:id="@+id/fullSchedule"
+            android:textSize="18sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:checked="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Ενιαίο ωράριο" />
+
+        <RadioButton
+            android:id="@+id/breakedSchedule"
+            android:textSize="18sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Σπαστό ωράριο" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

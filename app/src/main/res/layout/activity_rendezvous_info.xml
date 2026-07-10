@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_background"
+    tools:context=".profUserActivities.RendezvousInfo">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toStartOf="@+id/guideline42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="65dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="84dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/removeRendezvousButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/rendesvousStartText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Πληροφορίες"
+                android:textColor="@color/blue_color"
+                android:textSize="22dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toTopOf="@+id/NameText"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/simpleUserNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kristou"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="@+id/NameText"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/NameText"
+                app:layout_constraintTop_toBottomOf="@+id/NameText"
+                app:layout_constraintBottom_toTopOf="@+id/phoneText"/>
+
+            <TextView
+                android:id="@+id/phoneText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Τηλέφωνο πελάτη"
+                android:textSize="15dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintBottom_toTopOf="@id/phoneinfo"
+                app:layout_constraintEnd_toEndOf="@+id/simpleUserNameText"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/simpleUserNameText"
+                app:layout_constraintTop_toBottomOf="@+id/simpleUserNameText" />
+
+            <TextView
+                android:id="@+id/phoneinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6959665911"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/phoneText"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/phoneText"
+                app:layout_constraintTop_toBottomOf="@+id/phoneText"
+                app:layout_constraintBottom_toTopOf="@+id/Text"
+                />
+
+            <TextView
+                android:id="@+id/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ώρα Διεξαγωγής Ραντεβού"
+                android:textSize="15dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintBottom_toTopOf="@id/TimeText"
+                app:layout_constraintEnd_toEndOf="@+id/phoneinfo"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/phoneinfo"
+                app:layout_constraintTop_toBottomOf="@+id/phoneinfo" />
+
+            <TextView
+                android:id="@+id/NameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Όνομα Πελάτη"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.184"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rendesvousStartText"
+                app:layout_constraintBottom_toTopOf="@+id/simpleUserNameText"/>
+
+
+
+            <TextView
+                android:id="@+id/TimeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 : 30 - 11 : 00"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/Text"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/Text"
+                app:layout_constraintTop_toBottomOf="@+id/Text"
+                app:layout_constraintBottom_toTopOf="@id/Text1"/>
+
+            <TextView
+                android:id="@+id/Text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Ημερομηνία Διεξαγωγής"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/TimeText"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/TimeText"
+                app:layout_constraintTop_toBottomOf="@+id/TimeText"
+                app:layout_constraintBottom_toTopOf="@+id/dateText"/>
+
+            <TextView
+                android:id="@+id/dateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13 / 5 / 2021"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/Text1"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/Text1"
+                app:layout_constraintTop_toBottomOf="@+id/Text1"
+                app:layout_constraintBottom_toTopOf="@id/Text2"/>
+
+            <TextView
+                android:id="@+id/Text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Διάρκεια Ραντεβού"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/dateText"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/dateText"
+                app:layout_constraintTop_toBottomOf="@+id/dateText"
+                app:layout_constraintBottom_toTopOf="@+id/durationText"/>
+
+            <TextView
+                android:id="@+id/durationText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="30 Λεπτά"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/Text2"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/Text2"
+                app:layout_constraintTop_toBottomOf="@+id/Text2"
+                app:layout_constraintBottom_toTopOf="@+id/Text3"
+                />
+
+            <TextView
+                android:id="@+id/Text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Κόστος Ραντεβού"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/durationText"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/durationText"
+                app:layout_constraintTop_toBottomOf="@+id/durationText"
+                app:layout_constraintBottom_toTopOf="@+id/costText"/>
+
+            <TextView
+                android:id="@+id/costText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20 Ευρώ"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/Text3"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/Text3"
+                app:layout_constraintTop_toBottomOf="@+id/Text3"
+                app:layout_constraintBottom_toTopOf="@id/Text4"
+                />
+
+            <TextView
+                android:id="@+id/Text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Περιγραφή Ραντεβού"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/costText"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/costText"
+                app:layout_constraintTop_toBottomOf="@+id/costText"
+                app:layout_constraintBottom_toTopOf="@+id/descriptionText"/>
+
+            <TextView
+                android:id="@+id/descriptionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Είμαι περίεργος πελάτης"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/Text4"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/Text4"
+                app:layout_constraintTop_toBottomOf="@+id/Text4"
+                app:layout_constraintBottom_toTopOf="@id/Text5"
+                />
+
+            <TextView
+                android:id="@+id/Text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Υπήρεσίες Ραντεβού"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/descriptionText"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/descriptionText"
+                app:layout_constraintTop_toBottomOf="@+id/descriptionText"
+                app:layout_constraintBottom_toTopOf="@+id/serviceText"/>
+
+            <TextView
+                android:id="@+id/serviceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                android:text="- Κούρεμα\n- Ξύρισμα\n- Λούσημο"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/Text5"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/Text5"
+                app:layout_constraintTop_toBottomOf="@+id/Text5" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+
+    <Button
+        android:id="@+id/removeRendezvousButton"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="@drawable/clicked_button_group"
+        android:text="Ακύρωση"
+        android:textColor="@color/white"
+        android:layout_margin="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
